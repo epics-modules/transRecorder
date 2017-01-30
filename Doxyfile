@@ -772,8 +772,8 @@ WARN_LOGFILE           =
 # Note: If this tag is empty the current directory is searched.
 
 INPUT                  = \
-    TRCore/TransRecorderCoreApp/src \
-    TRGeneralStandards/TransRecorderGeneralStandardsApp/src
+    TRCore/TRCoreApp/src \
+    TRGeneralStandards/TRGeneralStandardsApp/src
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses. Internally doxygen uses the UTF-8 encoding. Doxygen uses
@@ -814,10 +814,10 @@ RECURSIVE              = NO
 # run.
 
 EXCLUDE                = \
-    TRCore/TransRecorderCoreApp/src/TRTimeArrayDriver.h \
-    TRCore/TransRecorderCoreApp/src/TRConfigParamTraits.h \
-    TRCore/TransRecorderCoreApp/src/TRNonCopyable.h  \
-    TRGeneralStandards/TransRecorderGeneralStandardsApp/src/TRGeneralStandards.h
+    TRCore/TRCoreApp/src/TRTimeArrayDriver.h \
+    TRCore/TRCoreApp/src/TRConfigParamTraits.h \
+    TRCore/TRCoreApp/src/TRNonCopyable.h  \
+    TRGeneralStandards/TRGeneralStandardsApp/src/TRGeneralStandards.h
 
 # The EXCLUDE_SYMLINKS tag can be used to select whether or not files or
 # directories that are symbolic links (a Unix file system feature) are excluded
