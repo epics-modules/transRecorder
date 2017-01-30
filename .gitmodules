@@ -1,0 +1,6 @@
+[submodule "TRGeneralStandards"]
+	path = TRGeneralStandards
+	url = https://github.com/epics-modules/TRGeneralStandards
+[submodule "TRCore"]
+	path = TRCore
+	url = https://github.com/epics-modules/TRCore
